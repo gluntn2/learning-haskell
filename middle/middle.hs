@@ -4,4 +4,4 @@ mStr str
   | otherwise = mStr . init $ tail str 
 
 main :: IO ()
-main = putStrLn $ mStr "goodness"  
+main = putStrLn $ mStr "goodness"
